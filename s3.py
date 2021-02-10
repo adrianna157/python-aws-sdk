@@ -3,7 +3,6 @@ import uuid
 import boto3
 from flaskwebgui import FlaskUI
 
-
 iam = boto3.resource('iam')
 assume_role_policy = iam.AssumeRolePolicy('sssAdminEC2')
 
